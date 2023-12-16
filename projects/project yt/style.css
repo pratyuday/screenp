@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.banner{
+       background: linear-gradient(rgba(0,0,0,0.2),#2ef527ad),url(./3.jpg);
+       background-size: cover;
+       background-position: center;
+       height: 100vh;
+}
+.logo{
+    width: 150px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    mix-blend-mode: multiply ;
+}
+.banner-text{
+    color: white;
+    padding-top: 180px;
+    text-align: center;
+}
+.banner h3{
+    font-style:oblique;
+}
+.banner-text h1{
+    font-size: 120px;
+    font-family: 'Lobster', sans-serif;
+}
+.banner-text p{
+    font-size: 30px;
+    font-style: italic;
+}
+.button{
+    margin: 60px auto 0;
+}
+.button a{
+    width: 150px;
+    margin: 0 10px;
+    padding: 12px 0;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    display: inline-block; 
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.button a span{
+    width: 0%;
+    height: 100%;
+    position:absolute;
+    top: 0%;
+    left:0%;
+    background: white;
+    z-index: -1;
+    transition:0.5s;
+
+    
+}
+.button a:hover span{
+    width: 100%;
+}
+.button a:hover{
+    color: black;
+}
+#list{
+    top: 0;
+    right: 0;
+    width: 200px;     
+    height: 100vh;
+    background: #0020077a;
+    position: fixed;
+    z-index: 2;
+}
+#list a{
+    text-decoration: none;
+    color: white;
+}
+#list ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+#menu{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    text-align: center;
+    right: 30px ;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+    mix-blend-mode: lighten ;
+    background-color:#00ff37  ;
+    background-size: 40px;
+    
+}
+#imenu{
+    width: 80px;
+    margin-top: 0px;
+    background-color:#00ff37 ;
+}
+
